@@ -1,0 +1,11 @@
+entrada = int(input(""))
+cont1 = 0
+cont2 = 1
+print('{}, {}'.format(cont1, cont2), end='')
+cont = 3
+while cont <= entrada:
+    cont3 = cont1 + cont2
+    print(', {}'.format(cont3), end='')
+    cont1 = cont2
+    cont2 = cont3
+    cont = cont + 1
